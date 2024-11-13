@@ -8,4 +8,4 @@ Sub-folders of the `mechanisms/` folder correspond to specific chemistry mechani
 | Mechanism   | Description                                                                 |
 |-------------|-----------------------------------------------------------------------------|
 | Chapman     | A simple mechanism for stratospheric ozone chemistry.                       |
-| Terminator  | A toy mechanism for Cl2 photlysis.                                          |
+| Terminator  | A toy mechanism for Cl2 photolysis.                                          |
