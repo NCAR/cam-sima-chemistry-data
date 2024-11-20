@@ -5,20 +5,15 @@
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.035453,
-      "__is advected": true
+      "__is advected": true,
+      "__is parameterized": false
     },
     {
       "name": "Cl2",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.070906,
-      "__is advected": true
-    },
-    {
-      "name": "H",
-      "type": "CHEM_SPEC",
-      "tracer type": "CONSTANT",
-      "__is advected": false,
+      "__is advected": true,
       "__is parameterized": false
     },
     {
@@ -26,42 +21,35 @@
       "type": "CHEM_SPEC",
       "tracer type": "THIRD_BODY",
       "__is advected": false,
-      "__is parameterized": false
-    },
-    {
-      "name": "O",
-      "type": "CHEM_SPEC",
-      "tracer type": "CONSTANT",
-      "__is advected": false,
-      "__is parameterized": false
+      "__is parameterized": true
     },
     {
       "name": "O2",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
       "__is advected": false,
-      "__is parameterized": false
+      "__is parameterized": true
     },
     {
       "name": "O3",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
       "__is advected": false,
-      "__is parameterized": false
+      "__is parameterized": true
     },
     {
       "name": "N2",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
       "__is advected": false,
-      "__is parameterized": false
+      "__is parameterized": true
     },
     {
       "name": "H20",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
       "__is advected": false,
-      "__is parameterized": false
+      "__is parameterized": true
     }
   ]
 }
