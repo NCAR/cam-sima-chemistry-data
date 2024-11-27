@@ -46,13 +46,6 @@
       "molecular weight [kg mol-1]": 0.0479982,
       "__is advected": true,
       "__is parameterized": false
-    },
-    {
-      "name": "H20",
-      "type": "CHEM_SPEC",
-      "tracer type": "CONSTANT",
-      "__is advected": false,
-      "__is parameterized": true
     }
   ]
 }

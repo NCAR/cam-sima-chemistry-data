@@ -43,13 +43,6 @@
       "tracer type": "CONSTANT",
       "__is advected": false,
       "__is parameterized": true
-    },
-    {
-      "name": "H20",
-      "type": "CHEM_SPEC",
-      "tracer type": "CONSTANT",
-      "__is advected": false,
-      "__is parameterized": true
     }
   ]
 }
