@@ -27,6 +27,7 @@
       "name": "O2",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
+      "molecular weight [kg mol-1]": 0.0319988,
       "__is advected": false,
       "__is parameterized": true
     },
@@ -34,6 +35,7 @@
       "name": "O3",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
+      "molecular weight [kg mol-1]": 0.0479982,
       "__is advected": false,
       "__is parameterized": true
     },
@@ -41,6 +43,7 @@
       "name": "N2",
       "type": "CHEM_SPEC",
       "tracer type": "CONSTANT",
+      "molecular weight [kg mol-1]": 0.0280134,
       "__is advected": false,
       "__is parameterized": true
     }
