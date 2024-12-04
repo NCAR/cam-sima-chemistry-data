@@ -5,11 +5,13 @@
    },
    "grids": [
       {
-         "name": "O2",
-         "type": "O2",
-         "units": "molecule cm-3",
-         "file path": "musica_configurations/chapman/tuvx/data/profiles/atmosphere/ussa.dens"
-      },
+         "name": "time",
+         "type": "from config file",
+         "units": "hours",
+         "values": [ 12.0, 14.0 ]
+      }
+   ],
+   "profiles": [
       {
          "name": "solar zenith angle",
          "type": "solar zenith angle",
