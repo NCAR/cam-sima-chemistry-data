@@ -5,26 +5,6 @@
    },
    "grids": [
       {
-         "name": "time",
-         "type": "from config file",
-         "units": "hours",
-         "values": [ 12.0, 14.0 ]
-      }
-   ],
-   "profiles": [
-      {
-         "name": "O3",
-         "type": "O3",
-         "units": "molecule cm-3",
-         "file path": "musica_configurations/chapman/tuvx/data/profiles/atmosphere/ussa.ozone"
-      },
-      {
-         "name": "air",
-         "type": "air",
-         "units": "molecule cm-3",
-         "file path": "musica_configurations/chapman/tuvx/data/profiles/atmosphere/ussa.dens"
-      },
-      {
          "name": "O2",
          "type": "O2",
          "units": "molecule cm-3",
