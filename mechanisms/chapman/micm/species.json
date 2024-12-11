@@ -55,7 +55,7 @@
     },
     {
       "name": "air",
-      "type": "CHEM_SPEC",
+      "type": "CONSTANT",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0289644,
       "__is advected": false,
