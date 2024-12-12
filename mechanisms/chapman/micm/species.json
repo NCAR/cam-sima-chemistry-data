@@ -5,40 +5,64 @@
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0280134,
-      "__is advected": true
+      "__is advected": false,
+      "__is parameterized": true
     },
     {
       "name": "M",
       "type": "CHEM_SPEC",
-      "tracer type": "THIRD_BODY"
+      "tracer type": "THIRD_BODY",
+      "__is advected": false,
+      "__is parameterized": true
     },
     {
       "name": "O",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0159994,
-      "__is advected": false
+      "__is advected": false,
+      "__is parameterized": false
     },
     {
       "name": "O1D",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0159994,
-      "__is advected": false
+      "__is advected": false,
+      "__is parameterized": false
     },
     {
       "name": "O2",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0319988,
-      "__is advected": true
+      "__is advected": false,
+      "__is parameterized": false,
+      "__is added to profile": true,
+      "__unit" : "molecule cm-3",
+      "__scale height [km]": 7.0
     },
     {
       "name": "O3",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0479982,
-      "__is advected": true
+      "__is advected": true,
+      "__is parameterized": false,
+      "__is added to profile": true,
+      "__unit" : "molecule cm-3",
+      "__scale height [km]": 7.0
+    },
+    {
+      "name": "dry_air",
+      "type": "CONSTANT",
+      "absolute tolerance": 1e-12,
+      "molecular weight [kg mol-1]": 0.0289644,
+      "__is advected": false,
+      "__is parameterized": false,
+      "__is added to profile": true,
+      "__unit" : "molecule cm-3",
+      "__scale height [km]": 8.01
     }
   ]
 }
