@@ -10,5 +10,9 @@
   {
     "source": "jo3_b",
     "target": "PHOTO.jo3_b"
+  },
+  {
+    "source": "jNO",
+    "target": "PHOTO.jNO"
   }
 ]
