@@ -1,7 +1,7 @@
 {
    "__description": "TUV-x configuration for Terminator chemistry",
    "O2 absorption" : {
-     "cross section parameters file": "musica_configurations/chapman/tuvx/data/cross_sections/O2_parameters.txt"
+     "cross section parameters file": "${CASEROOT}/musica_configurations/terminator/tuvx/data/cross_sections/O2_parameters.txt"
    },
    "grids": [
       {
@@ -43,10 +43,10 @@
          {
             "name": "O3",
             "netcdf files": [
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_1.nc" },
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_2.nc" },
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_3.nc" },
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_4.nc" }
+              { "file path": "${CASEROOT}/musica_configurations/terminator/tuvx/data/cross_sections/O3_1.nc" },
+              { "file path": "${CASEROOT}/musica_configurations/terminator/tuvx/data/cross_sections/O3_2.nc" },
+              { "file path": "${CASEROOT}/musica_configurations/terminator/tuvx/data/cross_sections/O3_3.nc" },
+              { "file path": "${CASEROOT}/musica_configurations/terminator/tuvx/data/cross_sections/O3_4.nc" }
             ],
             "type": "O3"
          },
@@ -54,7 +54,7 @@
             "name": "O2",
             "netcdf files": [
               {
-                "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O2_1.nc",
+                "file path": "${CASEROOT}/musica_configurations/terminator/tuvx/data/cross_sections/O2_1.nc",
                 "lower extrapolation": { "type": "boundary" }
               }
             ],
