@@ -1,7 +1,7 @@
 {
    "__description": "TUV-x configuration for the MOZART-TS1 and MOZART-TSMLT chemical mechanisms",
    "O2 absorption" : {
-     "cross section parameters file": "musica_configurations/chapman/tuvx/data/cross_sections/O2_parameters.txt"
+     "cross section parameters file": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O2_parameters.txt"
    },
    "grids": [
       {
@@ -43,10 +43,10 @@
          {
             "name": "O3",
             "netcdf files": [
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_1.nc" },
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_2.nc" },
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_3.nc" },
-              { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_4.nc" }
+              { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_1.nc" },
+              { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_2.nc" },
+              { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_3.nc" },
+              { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_4.nc" }
             ],
             "type": "O3"
          },
@@ -54,7 +54,7 @@
             "name": "O2",
             "netcdf files": [
               {
-                "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O2_1.nc",
+                "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O2_1.nc",
                 "lower extrapolation": { "type": "boundary" }
               }
             ],
@@ -98,7 +98,7 @@
                "apply O2 bands": true,
                "netcdf files": [
                  {
-                   "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O2_1.nc",
+                   "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O2_1.nc",
                    "lower extrapolation": { "type": "boundary" },
                    "interpolator": { "type": "fractional target" }
                  }
@@ -128,10 +128,10 @@
             "__reaction": "O3 + hv -> O2 + O(1D)",
             "cross section": {
                "netcdf files": [
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_1.nc" },
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_2.nc" },
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_3.nc" },
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_4.nc" }
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_1.nc" },
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_2.nc" },
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_3.nc" },
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_4.nc" }
                ],
                "type": "O3"
             },
@@ -147,10 +147,10 @@
             "__reaction": "O3 + hv -> O2 + O(3P)",
             "cross section": {
                "netcdf files": [
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_1.nc" },
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_2.nc" },
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_3.nc" },
-                 { "file path": "musica_configurations/chapman/tuvx/data/cross_sections/O3_4.nc" }
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_1.nc" },
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_2.nc" },
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_3.nc" },
+                 { "file path": "musica_configurations/NO_photolysis/tuvx/data/cross_sections/O3_4.nc" }
                ],
                "type": "O3"
             },
