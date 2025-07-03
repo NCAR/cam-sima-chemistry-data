@@ -12,14 +12,16 @@
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.044009,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 0.0004
     },
     {
       "name": "H2O",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0180153,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 0.0004
     },
     {
       "name": "M",
@@ -30,48 +32,55 @@
       "name": "N",
       "type": "CHEM_SPEC",
       "molecular weight [kg mol-1]": 0.028,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 1.0e-12
     },
     {
       "name": "N2",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0280134,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 0.74015
     },
     {
       "name": "NO",
       "type": "CHEM_SPEC",
       "molecular weight [kg mol-1]": 0.03001,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 1.0e-9
     },
     {
       "name": "O",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0159994,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 5.3509e-10
     },
     {
       "name": "O1D",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0159994,
-      "__is advected": false
+      "__is advected": false,
+      "__default mixing ratio [kg kg-1]": 5.3509e-10
     },
     {
       "name": "O2",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0319988,
-      "__is advected": true
+      "__is advected": true,
+      "__default mixing ratio [kg kg-1]": 0.22474
     },
     {
       "name": "O3",
       "type": "CHEM_SPEC",
       "absolute tolerance": 1e-12,
       "molecular weight [kg mol-1]": 0.0479982,
-      "__is advected": true
+      "__is advected": true,
+      "__default mixing ratio [kg kg-1]": 0.00016
     }
   ]
 }
