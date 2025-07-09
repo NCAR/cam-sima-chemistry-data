@@ -1,0 +1,74 @@
+{
+  "camp-data": [
+    {
+      "type": "MECHANISM",
+      "name": "photolysis steady state",
+      "reactions": [
+        {
+          "type": "PHOTOLYSIS",
+          "scaling factor": 1,
+          "MUSICA name": "jno2",
+          "reactants": {
+            "NO2": {}
+          },
+          "products": {
+            "NO": {
+              "yield": 1
+            },
+            "O": {
+              "yield": 1
+            }
+          }
+        },
+        {
+          "type": "ARRHENIUS",
+          "A": 3e-12,
+          "Ea": 2.07097e-20,
+          "B": 0,
+          "D": 300,
+          "E": 0,
+          "reactants": {
+            "NO": {
+              "qty": 1
+            },
+            "O3": {
+              "qty": 1
+            }
+          },
+          "products": {
+            "NO2": {
+              "yield": 1
+            },
+            "O2": {
+              "yield": 1
+            }
+          }
+        },
+        {
+          "type": "ARRHENIUS",
+          "A": 6e-34,
+          "Ea": 0,
+          "B": -2.4,
+          "D": 300,
+          "E": 0,
+          "reactants": {
+            "M": {
+              "qty": 1
+            },
+            "O": {
+              "qty": 1
+            },
+            "O2": {
+              "qty": 1
+            }
+          },
+          "products": {
+            "O3": {
+              "yield": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

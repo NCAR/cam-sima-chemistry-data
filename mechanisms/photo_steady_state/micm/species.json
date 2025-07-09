@@ -1,0 +1,29 @@
+{
+  "camp-data": [
+    {
+      "name": "M",
+      "type": "CHEM_SPEC",
+      "tracer type": "THIRD_BODY"
+    },
+    {
+      "name": "NO",
+      "type": "CHEM_SPEC"
+    },
+    {
+      "name": "NO2",
+      "type": "CHEM_SPEC"
+    },
+    {
+      "name": "O",
+      "type": "CHEM_SPEC"
+    },
+    {
+      "name": "O2",
+      "type": "CHEM_SPEC"
+    },
+    {
+      "name": "O3",
+      "type": "CHEM_SPEC"
+    }
+  ]
+}
